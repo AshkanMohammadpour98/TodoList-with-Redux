@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Great+Vibes&family=Lalezar&family=Playball&family=Public+Sans:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Concert+One&family=Great+Vibes&family=Kalam:wght@300;700&family=Lalezar&family=Playball&family=Public+Sans:wght@100&family=Rubik+Doodle+Shadow&display=swap');
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+.contaienr{
+    width: 80%;
+    margin: auto;
+    background-color: #FF9800;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 20vh;
+}
+h1{
+    font-family: 'Rubik Doodle Shadow';
+}
+.container-add-action{
+    margin: 8px;
+}
+.container-add-action button , input{
+    padding: 5px;
+}
+.todo-item-box{
+    border: 1px solid #eeee;
+    padding: 5px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    font-family: 'Concert One';
+}
+.todo-item-contaienr{
+    max-height: 45vh;
+    overflow: auto;
+    padding: 0 5px;
+    box-shadow: inset rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, inset rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+}
+.btn-add-todo , .text-todo{
+    margin: 5px 0;
+}
+#delet-icon {
+    cursor: pointer;
+}
+.complited {
+    border:  1px greenyellow;
+    background-color: green;
+}
